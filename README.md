@@ -6,9 +6,13 @@ Professional Visualization of Molecules and Structures for Scientists and Arties
 ![image](https://github.com/user-attachments/assets/41920f47-9d41-42a2-9abd-599989a88703)
 
 ChemBlender is a Blender-based plugin for professional visualization of molecules and other micro-nano structures. It supports Blender versions 4.1–4.4. Before using the plugin, install the third-party Python library RDKit. You can install it by entering the following command in Blender's Python Console:
+
 import sys
+
 import subprocess
+
 python_exe = sys.executable
+
 subprocess.call([python_exe, '-m', 'pip', 'install', 'rdkit'])
 
 The ChemBlender website is currently under construction. Hope you like it!
